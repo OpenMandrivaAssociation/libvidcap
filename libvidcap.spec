@@ -4,7 +4,7 @@
 
 Name:		libvidcap
 Version:	0.2.1
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 Summary:	Video capture library
 Group:		System/Libraries
 URL:		http://sourceforge.net/projects/%{name}
@@ -28,6 +28,7 @@ and other video capture devices.
 Summary:	Development headers and libraries for %{name}
 Group:		Development/C
 Provides:	%{name}-devel = %{version}-%{release}
+Requires:	%{libname} = %{version}-%{release}
 
 %description -n %{develname}
 libvidcap is a cross-platform library for capturing video from webcams
