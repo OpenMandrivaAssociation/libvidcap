@@ -4,7 +4,7 @@
 
 Name:		libvidcap
 Version:	0.2.1
-Release:	%{mkrel 2}
+Release:	%{mkrel 3}
 Summary:	Video capture library
 Group:		System/Libraries
 URL:		http://sourceforge.net/projects/%{name}
