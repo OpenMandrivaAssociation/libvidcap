@@ -69,3 +69,19 @@ rm -rf %{buildroot}
 %{_includedir}/vidcap
 %{_libdir}/pkgconfig/*.pc
 
+
+
+%changelog
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.2.1-3mdv2010.0
++ Revision: 439485
+- rebuild
+
+* Sun Dec 28 2008 Adam Williamson <awilliamson@mandriva.org> 0.2.1-2mdv2009.1
++ Revision: 320228
+- devel requires lib
+
+* Sun Dec 28 2008 Adam Williamson <awilliamson@mandriva.org> 0.2.1-1mdv2009.1
++ Revision: 320135
+- import libvidcap
+
+
