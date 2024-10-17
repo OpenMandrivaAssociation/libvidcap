@@ -7,7 +7,7 @@ Version:	0.2.1
 Release:	%{mkrel 3}
 Summary:	Video capture library
 Group:		System/Libraries
-URL:		http://sourceforge.net/projects/%{name}
+URL:		https://sourceforge.net/projects/%{name}
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 License:	LGPLv2+
 BuildRoot:	%{_tmppath}/%{name}-root
